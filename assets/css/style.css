@@ -34,17 +34,28 @@ a{
 .button:hover{
     opacity: 0.8;
 }
+/* Neo-Header */
+.neo-header{
+    width: 100vw;
+    position: sticky;
+    top: -26px;
+    padding-top: 26px;
+    z-index: 1;
+    background-color: #E6F0FF;
+}
 /* Header */
-.header{
+.hero-wrap{
     position: relative;
     background: #E6F0FF;
-    height:100vh;
+    height: calc(100vh - 90px);
     width: 100vw;
+    padding-top:20px;
 }
 .navbar{ 
-    align-items: center;
     display: flex;
-    padding-top:38px;
+    align-items: center;
+    padding: 12px 0;
+    background: #E6F0FF;
 }
 /* Nếu sử dụng margin thì sẽ Margin-Collapse với .content hoặc .header */
 .navbar ul{
@@ -64,7 +75,7 @@ a{
     color: var(--main-color);
     font-size: 1.4rem;
     font-weight: 500;
-    padding : 8px 1.4rem;
+    padding : 8px 14px;
 }
 .navbar .button{
     border-radius: 8px;
@@ -74,9 +85,11 @@ a{
     text-decoration: underline;
 }
 /* Hero */
+.hero{
+    margin-top: 70px;
+}
 .info{
     width: 559px;
-    height: 371px;
 }
 .hero .sub-title{
     color: #687690;
@@ -102,7 +115,6 @@ a{
 }
 .hero .info{
     margin-right:auto; 
-    margin-top: 90px;
 }
 .hero .button{
     min-width:170px;
@@ -110,11 +122,12 @@ a{
 .hero img{
     position: absolute;
     bottom: 0;
-    right :calc(((100vw - 1110px) - 24px * 2 - 65px * 2));
+    right :calc(((100% - 1110px) - 24px * 2 - 65px * 2));
     /* right :65px; */
 }
 /* Clients */
 .clients{
+    /* text-align: center; */
     width: 100vw;
     height: 312px;
     background: #FFFFFF;
@@ -333,9 +346,7 @@ a{
 .product{
     background-color: #FFFFFF;
     width: 350px;
-    height: 357px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-radius: 12px;
     box-shadow: 0px 65px 80px -46px rgba(226, 238, 249, 0.60);
 }
 .product-info{
@@ -401,7 +412,6 @@ a{
     top:0;
     left: 0;
     width: 239px;
-    height: 252px;
     border-radius: 0px 0px 12px 12px;
     text-align: left;
     background: #FFF;
