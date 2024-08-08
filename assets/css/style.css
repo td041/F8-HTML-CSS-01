@@ -115,11 +115,8 @@ a{
 }
 /* Clients */
 .clients{
-    /* display: flex; */
     width: 100vw;
     height: 312px;
-    justify-content: center;
-    align-items: center;
     background: #FFFFFF;
     margin-top: 79px;
     padding: 43px 0 41px;
@@ -130,10 +127,6 @@ a{
 .clients-1{
     display: flex;
     justify-content: center;
-}
-.clients-2 img[alt="Amazon"]{
-    width: 204px;
-    height: 91px;
 }
 .clients-1 .section-2{
     margin-left:auto;
@@ -158,6 +151,17 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.clients-2 a{
+    padding: 0 40px;
+    border-radius: 12px;
+    height: 91px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.clients-2 a:hover{
+    box-shadow: 0px 10px 20px 0px #0000001A;
 }
 /* Guides */
 .guides-list{
@@ -677,6 +681,7 @@ a{
     display: flex;
     margin-top: 40px;
     align-items: center;
+    gap:16px;
 }
 .ending{
     display: flex;
