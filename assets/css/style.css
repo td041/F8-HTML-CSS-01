@@ -414,7 +414,7 @@ a{
     position: absolute;
     top:0;
     left: 0;
-    width: 239px;
+    padding : 45px 22px 40px;
     border-radius: 0px 0px 12px 12px;
     text-align: left;
     background: #FFF;
@@ -430,7 +430,6 @@ a{
 .stats-avt .data{
     display: flex;
     justify-content: space-between;
-    margin: 45px 22px 8px 22px;
 }
 .stats-avt .desc{
     color: #A7A7A7;
@@ -439,7 +438,6 @@ a{
     line-height: 18px; /* 150% */
     width: 194px;
     height: 31px;   
-    margin-left: 22px;
 }
 .paragraph{
     padding: 79px 0px 69px 165px;
@@ -463,11 +461,9 @@ a{
     line-height: 45px; /* 128.571% */
     width: 269px;
     height: 142px;
-    /* margin: 79px 50px 20px 165px; */
 }
 .paragraph .desc{
     width: 309px;
-    /* margin-left: 165px; */
     color: #5A6473;
     font-size: 1.6rem;
     font-weight: 400;
@@ -478,7 +474,6 @@ a{
     width: 193.62px;
     height: 1.2px;
     margin-top: 25.51px;
-    margin-left: 22px;
 }
 .avatar{    
     width: 16.337px;
@@ -490,7 +485,6 @@ a{
 }
 .avt-block{
     margin-top: 26px;
-    margin-left: 21.18px;
     width: 187.57px;
     height: 49.01px;
     display: flex;
