@@ -39,7 +39,6 @@ a{
 }
 /* Neo-Header */
 .neo-header{
-    width: 100vw;
     position: sticky;
     top: -26px;
     padding-top: 26px;
@@ -51,7 +50,7 @@ a{
     position: relative;
     background: #E6F0FF;
     height: calc(100vh - 90px);
-    width: 100vw;
+    
     padding-top:20px;
 }
 .navbar{ 
@@ -126,12 +125,9 @@ a{
     position: absolute;
     bottom: 0;
     right :calc(((100% - 1110px) - 24px * 2 - 65px * 2));
-    /* right :65px; */
 }
 /* Clients */
 .clients{
-    /* text-align: center; */
-    width: 100vw;
     height: 312px;
     background: #FFFFFF;
     margin-top: 79px;
@@ -187,7 +183,7 @@ a{
     text-align: center;
 }
 .guides-list{
-    width: 100vw;
+    
     height: 585px;
     padding: 89px 0 79px;
     justify-content: center;
@@ -335,8 +331,7 @@ a{
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-.features{
-    width: 100vw;
+.features{   
     height: 727px;
     background: #F5FAFE;;
     padding-top: 110px;
@@ -380,7 +375,6 @@ a{
 /* Stats */
 /* Part-1 */
 .stats{
-    width: 100vw;
     height: 785px;
     margin-top: 75px;
 }
@@ -591,7 +585,7 @@ a{
 /* Subscription */
 .subscription{ 
     margin: 90px auto 0;
-    width: 100vw;
+    
 }
 .subscription .bg-sub{
     width: 670px;
@@ -639,7 +633,6 @@ a{
 }
 /* Footer */
 .footer{
-    width: 100vw;
     padding-bottom: 58px;
     margin-top: 55px;
     padding-top: 50px;
